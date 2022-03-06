@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+header .nav{
+    padding: 3em;
+    padding-bottom:0%;
+    padding-top: 0%;
+    background-color: rgb(163, 69, 116);
+}
+
+
+.Base-content{
+    padding: 20rem;
+    padding-top:3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    background: rgb(252, 249, 249);
+}
+
+.left-content{
+    padding:2rem;
+    border-radius: 2%;
+    background-color:white;
+    height: 550px;
+    width: 350px;
+    margin-right:50px;
+    display:flex;
+    flex-direction: column;
+    border: silver 1px solid;
+}
+
+.right-content{
+    padding: 5rem;
+align-items: center;
+   height: 1500px;
+   width: 1200px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   background: white;
+}
+
+ .st-side{
+    font-size: 150%;
+    padding: 0.8rem;
+    list-style: none;
+    text-decoration: none;
+    border-bottom: silver 1px solid;
+    color: black;
+    
+} 
+.st-side:hover{
+   border: 1px solid black;
+}
+
+ .left-content a{
+    padding: 0.8rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    
+} 
+.left-content a i{
+    margin-right: 15px;
+    color: black;
+}
+.add-Te{
+    border: silver 1px solid;
+   max-width: 200px;
+    max-height: 200px;
+}
+.add-Te a{
+    margin-left: 80px;
+    font-size: 100%;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
